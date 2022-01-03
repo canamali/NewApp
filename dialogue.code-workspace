@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"name": "@mobile/client",
+			"path": "modules/client"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git/**": true,
+			"**/node_modules/**": true
+		}
+	}
+}
