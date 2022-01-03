@@ -16,6 +16,12 @@ This section explains how to get started with the repository
 
 This clones or downloads the repository onto your computer.
 
+
+### `npm install -g expo-cli`
+
+
+### `npm install --global expo-cli`
+
 ### `npm install`
 
 This part installs the npm packages that would be needed to run the project. 
