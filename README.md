@@ -12,21 +12,48 @@ Expo is one of these powerful frameworks that enables the development of univers
 ## Getting started 
 This section explains how to get started with the repository 
 
-### `git clone https://github.com/canamali/mobile-front-end.git`
+### `Cloning`
+
+```sh
+$ git clone https://github.com/canamali/NewApp.git
+```
 
 This clones or downloads the repository onto your computer.
 
+### Installing Global Packages
 
-### `npm install -g expo-cli`
+```sh
+$ npm install -g expo-cli
+```
 
 
-### `npm install --global expo-cli`
+Note that there may be other global packages that i may have forgotten to add. 
+### Run the application
 
-### `npm install`
 
-This part installs the npm packages that would be needed to run the project. 
+```sh
+$ cd modules/client
+```
+This would navigate you to the folder that contains the code
 
-### `npm start`
+```sh
+$ yarn
+```
+
+This part installs the dependencies that would be needed to run the project. 
+
+```sh
+$ yarn ios
+```
+or 
+```sh
+$ yarn android
+```
+Note, `yarn android` may require you to change the android sdk path in android/local.properties file.
+or 
+```sh
+$ yarn web
+```
 
 This command runs the project!
 
