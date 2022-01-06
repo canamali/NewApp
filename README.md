@@ -20,6 +20,11 @@ $ git clone https://github.com/canamali/NewApp.git
 
 This clones or downloads the repository onto your computer.
 
+```sh
+$ cd NewApp
+```
+
+This navigates into the folder
 ### Installing Global Packages
 
 ```sh
