@@ -61,4 +61,4 @@ buck-out/
 bin/npx
 share/man/
 bin/npm
-modules/bin/
+
